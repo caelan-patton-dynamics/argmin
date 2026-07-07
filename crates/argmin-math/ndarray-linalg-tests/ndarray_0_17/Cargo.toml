@@ -8,7 +8,7 @@ publish = false
 
 [dev-dependencies]
 argmin-math = { path = "../../", version = "*", features = [
-    "ndarray_latest",
+    "ndarray_v0_17",
 ] }
 ndarray = { version = "0.17", default-features = false }
 ndarray-linalg = { version = "0.18", default-features = false, features = ["intel-mkl-static"] }
